@@ -78,7 +78,8 @@ Check:
 
         3- Send the request to the database 
 
-        4- Compare the user's geographic location data with the geographic location                  data of the users in the same area. 
+        4- Compare the user's geographic location data with the geographic location  
+            data of the users in the same area. 
 
         5- If there is a match, send a notification to the user with the number. 
 
@@ -96,7 +97,8 @@ Check:
 
         3- Send the request to the database 
 
-        4- Compare the user's geographic location data with the geographic                                 location data of the users in the same area. 
+        4- Compare the user's geographic location data with the geographic 
+           location data of the users in the same area. 
 
         5- If there is a match, send a notification to the user with the number. 
 
