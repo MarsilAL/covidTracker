@@ -6,57 +6,49 @@ Use Cases:
 
  
 
-Online: 
+Precondition: 
 
-            -   Primary Path: 
+ - registration in the website. 
 
-              1- The website is online ( the users can use it). 
+ - The user must enter the user name, 
 
-        2- Use Case ends with Success. 
+ -  The user must enter the Location or allow the Location to automatically, 
+
+  - tell the users if a covid patient is in the area. 
+
+  - Use Case ends with Success. 
 
  
 
-            -   Exception Path: 
+    Postcondition: The user will be notified if there is a covid patient in the area. 
 
-              1- The website is not online ( the users can not use it). 
-
-        2- Use Case ends with Failure. 
+ 
 
  
 
 Register: 
 
-            -   Primary Path: 
+    -   Primary Path: 
 
-              1- Enter your User Name, Location, and Status. 
+    1- Enter your User Name, Location, and Status. 
 
-        2- Click Register button. 
+    2- Click Register button. 
 
-        3- Registration for the database 
+    3- Registration for the database 
 
-        4- Show the User Home page 
+    4- Show the User Home page 
 
-        5- Use Case ends with Success. 
-
- 
-
-            -   Exception Path: 
-
-              1- One of the fields Username, Geolocation, or Status is empty. 
-
-        2- Use Case ends with Failure. 
+    5- Use Case ends with Success. 
 
  
 
- 
+   -   Exception Path: 
 
- 
+  1- One of the fields Username, Geolocation, or Status is empty. 
 
- 
+  2- Use Case ends with Failure.  
 
- 
-
- 
+ 3- Show error message, required information must be entered 
 
  
 
@@ -78,8 +70,7 @@ Check:
 
         3- Send the request to the database 
 
-        4- Compare the user's geographic location data with the geographic location  
-            data of the users in the same area. 
+        4- Compare the user's geographic location data with the geographic location                  data of the users in the same area. 
 
         5- If there is a match, send a notification to the user with the number. 
 
@@ -97,8 +88,7 @@ Check:
 
         3- Send the request to the database 
 
-        4- Compare the user's geographic location data with the geographic 
-           location data of the users in the same area. 
+        4- Compare the user's geographic location data with the geographic  location   data of the users in the same area. 
 
         5- If there is a match, send a notification to the user with the number. 
 
@@ -112,11 +102,11 @@ Check:
 
             -   Exception Path: 
 
-              1- The User has not entered the status 
+         1- The User has not entered the status 
 
-        2- Use Case ends with Failure.(with error msg) 
+        2- Use Case ends with Failure. 
 
- 
+        3- Show error message, required information must be entered 
 
  
 
