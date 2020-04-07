@@ -1,113 +1,66 @@
 Covid Tracker Use Cases 
-
+========================
  
 
-Use Cases: 
-
+Register
+--------
  
-
-Precondition: 
-
- - registration in the website. 
-
- - The user must enter the user name, 
-
- -  The user must enter the Location or allow the Location to automatically, 
-
-  - tell the users if a covid patient is in the area. 
-
-  - Use Case ends with Success. 
-
+__Synopsis:__
+A user registers to become a user of the covid tracker app.
  
-
-    Postcondition: The user will be notified if there is a covid patient in the area. 
-
+__Precondition:__
+- User is not known to the system
  
-
+__Actors:__
+user, system
  
-
-Register: 
-
-    -   Primary Path: 
-
-    1- Enter your User Name, Location, and Status. 
-
-    2- Click Register button. 
-
-    3- Registration for the database 
-
-    4- Show the User Home page 
-
-    5- Use Case ends with Success. 
-
+__Trigger:__
+- User visits the website
  
-
-   -   Exception Path: 
-
-  1- One of the fields Username, Geolocation, or Status is empty. 
-
-  2- Use Case ends with Failure.  
-
- 3- Show error message, required information must be entered 
-
+__Primary Path:__ 
+- User enters Username, and Status 
+- User issues the register command 
+- System creates a new user entry and stores the information given by user 
+- System shows the User Home screen 
  
+__Exception Path:__ 
+- One of the fields Username,Status is empty. 
+- Show error message, required information must be entered 
 
- 
 
- 
 
- 
+Check
+--------
+__Synopsis:__ 
+- The user is allowed to send his location information to the site to check for the presence of Corona in his area 
 
- 
+__Precondition:__ 
 
-Check: 
+- User’s geolocation is not known to the system 
 
-            -   Primary Path: 
+__Actors:__
+- system 
 
-              1- Enter the User Status. 
+__Trigger:__ 
 
-        2- Click Check button. 
+- User click on allow button To allow the website to get  the information 
 
-        3- Send the request to the database 
+__Primary Path:__ 
 
-        4- Compare the user's geographic location data with the geographic location                  data of the users in the same area. 
+- The site asks to allow access to data  
 
-        5- If there is a match, send a notification to the user with the number. 
+- User Click Allow button 
 
-        6- If there is no match, send a message to the user that the area is safe. 
+- User issues the Allow command  
 
-        5- Use Case ends with Success. 
+- System creates a new geolocation entry and stores the information given by user  
 
-               
+- System shows the User result screen  
 
-                -   Alternate Path: 
+__Exception Path:__
 
-              1- The site asks the user to allow to get his geographical location. 
+- The user refuses to allow the site to access the data.  
 
-        2- The site automatically gets the user's geographical data. 
+- Show error message, required to access geolocation information for Check 
 
-        3- Send the request to the database 
-
-        4- Compare the user's geographic location data with the geographic  location   data of the users in the same area. 
-
-        5- If there is a match, send a notification to the user with the number. 
-
-        6- If there is no match, send a message to the user that the area is safe. 
-
-        5- Use Case ends with Success. 
-
- 
-
- 
-
-            -   Exception Path: 
-
-         1- The User has not entered the status 
-
-        2- Use Case ends with Failure. 
-
-        3- Show error message, required information must be entered 
-
- 
-
- 
+  
