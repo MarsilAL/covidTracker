@@ -1,15 +1,17 @@
 1 - Was ist ein Milestone im Context Software Entwicklung?
 
-**__( Teilen Sie das Projekt in separate Phasen auf, die später gesammelt werden )__**
+**__( Teilen das Projekt in Phasen auf, die später gesammelt werden )__**
 
--	Meilensteine sind wichtige Punkte im Projektverlauf.
-* Meilensteine sind wichtige Punkte im Projektverlauf. Oft werden sie auch als Prüfpunkte bezeichnet.
+ Meilensteine sind wichtige Punkte im Projektverlauf.
+  
+  Meilensteine sind wichtige Punkte im Projektverlauf. Oft werden sie auch als Prüfpunkte bezeichnet.
 Generell kann ein Meilenstein ein Ereignis sein, an dem
  *	etwas abgeschlossen ist,
  *	etwas begonnen wird oder
  *	über die weitere Vorgehensweise entschieden wird
 
--	Meilensteine verlaufen nie über eine Zeitdauer. Sie sind lediglich Entscheidungspunkte.
+ 
+ Meilensteine verlaufen nie über eine Zeitdauer. Sie sind lediglich Entscheidungspunkte.
 
 __________________________________________________________
 __________________________________________________________
